@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#title {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: auto;
+}
+
+nav {
+  color: #fff;
+  background-color: rgb(19, 19, 165);
+}
+
+nav a {
+  color: #eee;
+}
+
+nav h2 {
+  margin: 15px;
+  font-weight: 150;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  padding: 20px;
+}
+
+.card {
+  width: 100px;
+  padding: 30px;
+  margin: 30px;
+  background-color: #eee;
+  border-radius: 5px;
+  color: rgb(19, 19, 165);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  cursor: pointer;
+}
+
+.card i {
+  font-size: 5em;
+}
+
+.card p {
+  margin-top: 12px;
+  font-size: 18px;
+}
+.card h3 {
+  color: #fff;
+  background-color: rgb(19, 19, 165);
+  font-size: 12px;
+  border-radius: 10px;
+
+  margin-top: 10px;
+  font-weight: 100;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  justify-content: center;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card:hover {
+  border: 1px solid rgb(19, 19, 165);
+}
+
+#title i {
+  margin-right: 5px;
+}
+
+/* Create a workout form */
+
+.form-wrap {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #ddd;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: #333;
+}
+
+.form-group {
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.form-wrap h2 {
+  text-align: center;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.form-group label {
+  display: block;
+}
+
+#submit {
+  width: 100%;
+  margin-top: 15px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background-color: rgb(19, 19, 165);
+}
+
+.social-wrap {
+  margin: 40px auto;
+  padding: 10px;
+  max-width: 500px;
+  text-align: center;
+  background-color: #ddd;
+  border-radius: 8px;
+}
+
+.social-wrap p {
+  font-size: 1.4em;
+}
+
+.icon-container {
+  margin: 10px;
+}
+
+.social-icons {
+  background-color: rgb(19, 19, 165);
+  color: #fff;
+  border-radius: 50%;
+  margin: 20px;
+  padding: 15px;
+  width: 1em;
+  height: 1em;
+}
